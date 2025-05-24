@@ -11,6 +11,8 @@
     <li>Git Log</li>
     <li>Git Reset</li>
     <li>Git Remote</li>
+    <li>Git Fetch</li>
+    <li>Git Pull</li>
 
   </ul>cls
 
@@ -18,5 +20,16 @@
   <p>1.하나의 Folder를 선정하여 Git Repository를 생성합니다.-Git Init 명령어 사용함</p>
   <p>2.생성한 Folder에 하나의 HTML 파일을 생성합니다</p>
   <p>3.생성한 HTML 파일을 Repository에 넣기 위해 등록을 합니다.이 파일은 Staged 단계에 놓이게 됩니다다-Git Add</p>
-  <p>4.이 파일을 Repository에 담기위한 마지막 조치로 Commit을 합니다.-Git Commit</p>
+  <p>4.이 파일을 Repository에 담기위한 마지막 조치로 Commit을 합니다.-Git Commit -m "메서지"</p>
+  <p>5.자신의 컴퓨터에서 원격저장소로 보내기 위해 원격저장소를 지정함함:Git remote add origin 원격저장소 주소소</p>
+  <p>6.origin은 원격저장소를 나타내는 alias로 보면 됩니다.꼭 origin을 사용해야 하는 것은 아니나 일반적으로 이 명칭을 사용합니다.</p>
+  <p>7.지정하고 나서 git remote를 치면 origin이라고 나타남</p>
+  <p>8.이제 자신의 컴퓨터 저장소에서 원격저장소로 저장된 내용을 보내기 위해 git push 원격저장소별칭 branch명칭(원격저장소)</p>
+  <p>9.로칼저장소와 원격저장소의 동기화입니다</p>
+  <p>10.만약 위의 git push 명령에서 에러가 생기면 슬기로운 코딩생활-05 참조</p>
+  <p>11.원격저장소에서 git fetch로   가져온 정보는 remote branch에 저장됨</p>
+  <p>12.원격저장소내용과 로컬저장소 내용이 같지 않을 경우는 git merge origin/master:master는 원격저장소 branch명</p>
+  <p>13.git pull은 git fetch 와 git merge를 한꺼번에 수행하는 명령어 입니다.</p>
+
+
 </html>
